@@ -1,36 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-body {
-  background: #7D6B91;
-  padding: 20px;
-  color: white;
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  
+*{
+    font-size: 14px;
+    font-family:'poppins', sans-serif;
+    background-color: rgb(5, 31, 107);
+    text-align: center;
+
 }
-
+body{
+    padding: 30px;
+    margin: 30px;
+    font-size: 25;
+}
 h1{
-  font-size: large;
-}
+    font-size: large;
 
+}
 p{
-  font-size: small;
+font-size: small;
+}
+.profile{
+
 }
 
 a{
-  text-decoration: none;
-  color: white;
+    color: white;
 }
-.profile-img{
-  width: 50%;
-  border-radius: 80%;
+a:hover{
+    background: rgb(132, 55, 249);
+    color: silver;
+    transition: 0.3s;
 }
 
+img{
+    width: 50%;
+    border-radius: 80%;
+}
 .btn{
-  display: block;
-  color: black;
-  padding: 20px;
-  background: white;
-  margin: 13px;
-  box-shadow: 10px 10px deepskyblue;
+    display: block;
+    text-decoration: none;
+    background: white;
+    color: black;
+    margin: 25px;
+    padding: 20px 5px; 
+    box-shadow: skyblue;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(132, 55, 249);
+    color: silver;
+    transition: 0.3s;
+}
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-icon{
+    margin: 5px;
+    cursor: pointer;
 }
